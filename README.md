@@ -25,6 +25,40 @@ Before running the dashboard, ensure you have the following installed:
 - **Seaborn** (for enhanced chart aesthetics)
 - **ttkbootstrap** (for a modern and responsive UI using `tkinter`)
 
-You can install the required libraries using the following command:
+1.Clone the Repository:
 
+First, clone the repository to your local machine using:
+git clone https://github.com/your-username/interactive-sales-dashboard.git
 
+2.Prepare the Data:
+
+Ensure that the sales data Excel file is placed in the appropriate directory. Update the file path in the script if needed:
+file_path = "C:\\Users\\Rakesh Reddy\\Desktop\\sales_data.xlsx"
+
+3.Run the Application:
+
+You can run the application by executing the main script:
+python interactive_sales_dashboard.py
+
+4.User Interface:
+
+The application will launch a GUI that allows you to:
+
+Select different charts (Pie, Bar, Time Series).
+Sort data in the bar charts (ascending or descending).
+View data summary of total quantities sold and total revenue generated for each product.
+
+File Structure
+
+interactive_sales_dashboard.py - Main Python script for running the dashboard.
+sales_data.xlsx - Excel file containing the sales data.
+README.md - This documentation file.
+
+Future Improvements
+
+Add functionality to export the visualized data to a file.
+Allow dynamic selection of the data file by the user.
+Implement more advanced data filtering options (e.g., by date range or product category).
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
